@@ -28,6 +28,6 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-pr
 시작하려면 BlueXP 캔버스로 이동하여 대상 작업 환경에서 소스 작업 환경을 끌어다 놓습니다. StorageGRID는 소스 또는 타겟이 될 수 있습니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/index.html["Cloud Sync에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/cloud-manager-sync/index.html["BlueXP 복사 및 동기화에 대해 자세히 알아보십시오"^]
 
 

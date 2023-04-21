@@ -3,8 +3,6 @@
   <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">StorageGRID에서 NetApp 데이터 서비스 사용</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">사내 ONTAP 데이터를 StorageGRID에 백업하는 방법에 대해 자세히 알아보십시오</block>
   <block id="5848e24b55c702b7cc486314cd78f6dc" category="paragraph"><block ref="5848e24b55c702b7cc486314cd78f6dc" category="inline-link-rx"></block></block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Cloud Sync에 대해 자세히 알아보십시오</block>
-  <block id="fcea636cb0627956ef5da173e7e82e53" category="paragraph"><block ref="fcea636cb0627956ef5da173e7e82e53" category="inline-link-rx"></block></block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID 관리의 새로운 기능</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
@@ -248,4 +246,6 @@
   <block id="ead1951b53a3b76661043b6bf5ff1b48" category="paragraph">시작하려면 BlueXP 캔버스로 이동하여 StorageGRID 작업 환경에서 온-프레미스 ONTAP 작업 환경을 끌어다 놓습니다.</block>
   <block id="b99ff865a132e7a6116d680732bd74a1" category="list-text">BlueXP 복사 및 동기화를 사용하여 StorageGRID 시스템과 데이터를 동기화할 수 있습니다.</block>
   <block id="e1bb8de567622bad90039f45af7d579c" category="paragraph">시작하려면 BlueXP 캔버스로 이동하여 대상 작업 환경에서 소스 작업 환경을 끌어다 놓습니다. StorageGRID는 소스 또는 타겟이 될 수 있습니다.</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">BlueXP 복사 및 동기화에 대해 자세히 알아보십시오</block>
+  <block id="e3e2362086f7a7cbdf71923245788646" category="paragraph"><block ref="e3e2362086f7a7cbdf71923245788646" category="inline-link-rx"></block></block>
 </blocks>
