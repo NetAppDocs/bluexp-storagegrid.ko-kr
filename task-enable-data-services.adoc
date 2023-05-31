@@ -21,13 +21,13 @@ BlueXP에서 StorageGRID 시스템을 발견한 후 NetApp의 데이터 서비�
 시작하려면 BlueXP 캔버스로 이동하여 StorageGRID 작업 환경에서 온-프레미스 ONTAP 작업 환경을 끌어다 놓습니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["사내 ONTAP 데이터를 StorageGRID에 백업하는 방법에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["사내 ONTAP 데이터를 StorageGRID에 백업하는 방법에 대해 자세히 알아보십시오"^]
 
 * BlueXP 복사 및 동기화를 사용하여 StorageGRID 시스템과 데이터를 동기화할 수 있습니다.
 +
 시작하려면 BlueXP 캔버스로 이동하여 대상 작업 환경에서 소스 작업 환경을 끌어다 놓습니다. StorageGRID는 소스 또는 타겟이 될 수 있습니다.
 
 +
-https://docs.netapp.com/us-en/cloud-manager-sync/index.html["BlueXP 복사 및 동기화에 대해 자세히 알아보십시오"^]
+https://docs.netapp.com/us-en/bluexp-copy-sync/index.html["BlueXP 복사 및 동기화에 대해 자세히 알아보십시오"^]
 
 
