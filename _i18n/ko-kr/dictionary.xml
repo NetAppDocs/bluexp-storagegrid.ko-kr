@@ -64,7 +64,6 @@
   <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">메시지가 표시되면 * 계속 * 을 클릭하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp은 Microsoft Azure Active Directory를 지원 및 라이선싱과 관련된 인증 서비스의 ID 공급자로 사용합니다.</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 인증 프로세스를 수행할 수 있도록 NetApp Support 사이트의 등록 이메일 주소와 암호를 제공합니다.</block>
-  <block id="3778f3873debfe11e2ace6bb6af1e417" category="doc">StorageGRID 설명서</block>
   <block id="67d5dc044866a0ff55b817d754d94a3e" category="sidebar">StorageGRID 문서</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
@@ -195,7 +194,6 @@
   <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 첨부 파일(선택 사항) *: 한 번에 하나씩 최대 5개의 첨부 파일을 업로드합니다.</block>
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부 파일은 파일당 25MB로 제한됩니다. txt, log, pdf, jpg/jpeg, rtf, DOC/docx, xls/xlsx 및 CSV.</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 케이스 메모 업데이트 *: 문제에 대한 추가 세부 정보를 제공하거나 * 파일 업로드 * 를 선택하여 최대 5개의 파일을 첨부할 수 있습니다.</block>
-  <block id="883eef4b617ed29c6215037626df7b5e" category="summary">BlueXP를 통해 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">BlueXP에 대한 고지 사항</block>
   <block id="562a1ca3f27bbce8f867c759f82d02dc" category="list-text">BlueXP 백업 및 복구를 사용하여 사내 ONTAP 시스템의 데이터를 NetApp StorageGRID 시스템의 오브젝트 스토리지로 백업합니다.</block>
@@ -250,4 +248,6 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리즈로 업그레이드하는 중입니다</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSS 자격 증명을 BlueXP 계정과 연결하는 것은 BlueXP 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP 계정 ID와 연결됩니다. BlueXP 계정에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="b200dbe3ac15ec0df201a92f5a178425" category="summary">BlueXP의 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
+  <block id="e49fe84ab9de0d0293be60cd1cd89c71" category="doc">BlueXP를 사용한 StorageGRID 관리</block>
 </blocks>
