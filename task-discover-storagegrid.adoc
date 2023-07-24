@@ -26,13 +26,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥
 
 .단계
 . BlueXP 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
-. 작업 환경 추가 * 를 클릭하고 * 온-프레미스 * 를 선택합니다.
+. 작업 환경 추가 * 를 선택하고 * 온-프레미스 * 를 선택합니다.
 . StorageGRID * 옆에 있는 * Discover * 를 선택합니다.
 . 메시지가 표시되면 연결선을 만듭니다.
 +
 자세한 내용은 위의 링크를 참조하십시오.
 
-. StorageGRID 클러스터 세부 정보 _ 페이지에서 admin 노드의 도메인 이름 또는 IP 주소, 노드의 자격 증명을 입력한 다음 * 추가 * 를 클릭합니다.
+. StorageGRID 클러스터 세부 정보 _ 페이지에서 admin 노드의 도메인 이름 또는 IP 주소, 노드의 자격 증명을 입력한 다음 * 추가 * 를 선택합니다.
 +
 image:screenshot-cluster-details.png["관리자 노드의 도메인 이름 또는 IP 주소와 자격 증명을 입력하는 StorageGRID 클러스터 세부 정보 페이지를 보여 주는 스크린샷"]
 
