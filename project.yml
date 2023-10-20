@@ -13,7 +13,9 @@ sidebar:
   - title: StorageGRID 문서
     url: "/index.html"
   - title: 릴리스 정보
-    url: "/whats-new.html"
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
   - title: 시작하십시오
     entries:
     - title: StorageGRID 시스템에 대해 알아보십시오
@@ -24,7 +26,7 @@ sidebar:
       url: "/task-view-storagegrid.html"
     - title: StorageGRID에서 NetApp 데이터 서비스 사용
       url: "/task-enable-data-services.html"
-    - title: StorageGRID 시스템을 제거합니다
+    - title: 작업 환경을 제거합니다
       url: "/task-remove-storagegrid.html"
   - title: 지식 및 지원
     entries:

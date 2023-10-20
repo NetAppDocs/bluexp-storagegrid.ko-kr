@@ -39,7 +39,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">StorageGRID 작업 환경을 제거합니다</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">작업 환경의 오른쪽 위 메뉴에서 사용할 수 있는 작업 공간에서 제거 옵션의 스크린샷</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으십시오</block>
@@ -58,7 +57,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">StorageGRID 시스템에 대해 알아보십시오</block>
   <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">StorageGRID 시스템 관리</block>
-  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">StorageGRID 시스템을 제거합니다</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식 및 지원</block>
   <block id="5a48514fa915876d588438500b09c18f" category="sidebar">StorageGRID를 제거합니다</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">추가 정보</block>
@@ -126,7 +124,6 @@
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">이제 BlueXP에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.</block>
   <block id="6f6c91d32f256a6b43783564031a35dc" category="sidebar">BlueXP 외부의 관리를 위한 StorageGRID 문서</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP 블로그</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">필요한 것</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">시작하기 전에</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
@@ -256,4 +253,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자의 파일 서비스에 대한 지원을 받습니다</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">클라우드 공급자의 파일 서비스, 자체 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원은 해당 제품의 BlueXP 설명서에서 "도움말 얻기"를 참조하십시오.</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXP 및 해당 스토리지 솔루션 및 서비스에 관한 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하십시오.</block>
+  <block id="724a6db0c5e9b582c8f6ea917749db0a" category="doc">StorageGRID 작업 환경을 제거합니다</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">다음이 필요합니다.</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">작업 환경을 제거합니다</block>
 </blocks>
