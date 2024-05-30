@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: BlueXP를 사용한 StorageGRID 관리
+  summary: BlueXP의 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud
+  lead: BlueXP의 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
+  tiles:
+  - title: 시작하십시오
+    links:
+    - title: StorageGRID 시스템에 대해 알아보십시오
+      url: task-discover-storagegrid.html
+  - title: StorageGRID 시스템 관리
+    links:
+    - title: StorageGRID 시스템을 봅니다
+      url: task-view-storagegrid.html
+    - title: StorageGRID에서 NetApp 데이터 서비스 사용
+      url: task-enable-data-services.html
+    - title: StorageGRID를 제거합니다
+      url: task-remove-storagegrid.html
+  - title: 추가 정보
+    links:
+    - title: BlueXP 외부의 관리를 위한 StorageGRID 문서
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: 블로그 커뮤니티
+    links:
+    - title: NetApp 커뮤니티
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP 블로그
+      url: https://cloud.netapp.com/blog
+    - title: 클라우드 웨비나
+      url: https://cloud.netapp.com/events
