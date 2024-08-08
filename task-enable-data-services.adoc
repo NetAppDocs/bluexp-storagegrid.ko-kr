@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: BlueXP에서 StorageGRID 시스템을 검색하고 나면 StorageGRID와 함께 NetApp의 데이터 서비스를 사용하여 백업 및 데이터 동기화를 수행할 수 있습니다. 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: BlueXP 에서 StorageGRID 시스템을 검색한 후 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다. 
 ---
 = StorageGRID에서 NetApp 데이터 서비스 사용
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP에서 StorageGRID 시스템을 검색하고 나면 StorageGRID�
 
 
 [role="lead"]
-BlueXP에서 StorageGRID 시스템을 발견한 후 NetApp의 데이터 서비스를 사용하여 백업 및 데이터 동기화를 수행할 수 있습니다.
+BlueXP 에서 StorageGRID 시스템을 검색한 후 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.
 
 * BlueXP 백업 및 복구를 사용하여 사내 ONTAP 시스템의 데이터를 NetApp StorageGRID 시스템의 오브젝트 스토리지로 백업합니다.
 +
@@ -22,6 +22,13 @@ BlueXP에서 StorageGRID 시스템을 발견한 후 NetApp의 데이터 서비�
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["사내 ONTAP 데이터를 StorageGRID에 백업하는 방법에 대해 자세히 알아보십시오"^]
+
+* BlueXP  계층화를 사용하여 온프레미스 ONTAP 클러스터의 비활성 데이터를 StorageGRID로 자동 계층화합니다.
++
+시작하려면 BlueXP 캔버스로 이동하여 StorageGRID 작업 환경에서 온-프레미스 ONTAP 작업 환경을 끌어다 놓습니다.
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["온프레미스 ONTAP 클러스터에서 StorageGRID로 데이터를 계층화하는 방법에 대해 자세히 알아보십시오"^]
 
 * BlueXP 복사 및 동기화를 사용하여 StorageGRID 시스템과 데이터를 동기화할 수 있습니다.
 +

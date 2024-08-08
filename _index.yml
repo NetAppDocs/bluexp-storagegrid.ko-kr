@@ -1,9 +1,11 @@
 ---
 indexpage:
   title: BlueXP를 사용한 StorageGRID 관리
-  summary: BlueXP의 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
+  summary: 그리드 관리자를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리하고 백업, 데이터 계층화 등에 BlueXP의 데이터
+    서비스를 사용합니다.
   keywords: storagegrid systems, bluexp, data, hybrid, multicloud
-  lead: BlueXP의 StorageGRID 시스템을 검색하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
+  lead: 그리드 관리자를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리하고 백업, 데이터 계층화 등에 BlueXP의 데이터 서비스를
+    사용합니다.
   tiles:
   - title: 시작하십시오
     links:
@@ -20,7 +22,7 @@ indexpage:
   - title: 추가 정보
     links:
     - title: BlueXP 외부의 관리를 위한 StorageGRID 문서
-      url: https://docs.netapp.com/us-en/storagegrid-116/
+      url: https://docs.netapp.com/us-en/storagegrid-118/
   - title: 블로그 커뮤니티
     links:
     - title: NetApp 커뮤니티

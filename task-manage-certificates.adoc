@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: 인증서가 만료될 수 있으므로 경우에 따라 상태를 보거나 인증서를 업데이트해야 할 수 있습니다. 
+---
+= BlueXP 에서 인증서를 관리합니다
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP 와 StorageGRID 간의 보안 연결을 위해 사용자가 승인한 관리 인터페이스 인증서가 필요합니다. 인증서가 만료될 수 있으므로 경우에 따라 상태를 보거나 인증서를 업데이트해야 할 수 있습니다.
+
+
+
+== 관리 하방 인증서 상태를 봅니다
+
+.단계
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
+. Canvas 페이지에서 StorageGRID 작업 환경을 선택합니다.
+. 표준 보기에서 페이지 오른쪽의 _Information_창 하단에 있는 사용자 승인 인증서의 상태를 확인합니다.
++
+
+NOTE: 인증서 상태는 24시간마다 한 번씩 새로 고쳐집니다.
+
++
+image:screenshot-standard-view-information.png["작업 환경에 있는 정보 창의 스크린샷"]
+
+
+
+
+
+== 관리 인터페이스 인증서를 업데이트합니다
+
+관리 인터페이스 인증서의 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 BlueXP 에서 StorageGRID에 연결할 수 있도록 인증서를 업데이트해야 합니다.
+
+.단계
+. StorageGRID에서 온-프레미스 Grid Manager로 이동하여 의 지침을 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRID에 관리 인터페이스 인증서 설치"]따릅니다.
+. Blue XP 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
+. Canvas 페이지에서 StorageGRID 작업 환경을 선택합니다.
+. 기타 옵션 아이콘(세 개의 세로 점이 있는 원)을 선택합니다.
++
+image:screenshot-update-certificate.png["업데이트 메뉴의 스크린샷"]
+
+. 인증서 업데이트 * 를 선택합니다.
++
+
+NOTE: 표준 보기에서 기타 옵션 아이콘(세로 점이 세 개인 아이콘)을 사용하여 인증서를 업데이트할 수도 있습니다.
+
++
+image:screenshot-bluexp-approve-certificate.png["StorageGRID 시스템을 검색하는 동안 나타나는 인증서 승인 화면을 보여 주는 스크린샷"]
+
+. Approve certificate_페이지에서 * Approve certificate * 를 선택하여 업데이트된 인증서를 사용합니다.
+
