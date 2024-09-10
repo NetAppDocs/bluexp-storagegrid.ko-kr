@@ -327,16 +327,11 @@
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">인증서 승인 * 을 선택하여 인증서를 사용합니다.</block>
   <block id="deac8378c59fe3d88512463d35486723" category="paragraph">성공 메시지가 나타납니다. StorageGRID 서버와 BlueXP  커넥터 간의 모든 통신은 승인된 인증서를 확인하여 보호됩니다.</block>
-  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">다른 인증서를 사용하십시오</block>
-  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">인증서를 확인하지 않고 검색 프로세스를 종료하려면 * 취소 * 를 선택하십시오. 예를 들어, StorageGRID 관리 인증서를 업데이트해야 한다는 오류 메시지가 표시되면 * 취소 * 를 선택할 수 있습니다. 인증서를 업데이트하려면 로 이동합니다 <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>.</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">BlueXP 에서 StorageGRID 시스템을 검색한 후 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">BlueXP  계층화를 사용하여 온프레미스 ONTAP 클러스터의 비활성 데이터를 StorageGRID로 자동 계층화합니다.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">온프레미스 ONTAP 클러스터에서 StorageGRID로 데이터를 계층화하는 방법에 대해 자세히 알아보십시오</block>
   <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
   <block id="1c0cf398fca729802189afd04195daca" category="summary">인증서가 만료될 수 있으므로 경우에 따라 상태를 보거나 인증서를 업데이트해야 할 수 있습니다.</block>
-  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">BlueXP 에서 인증서를 관리합니다</block>
-  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">BlueXP 와 StorageGRID 간의 보안 연결을 위해 사용자가 승인한 관리 인터페이스 인증서가 필요합니다. 인증서가 만료될 수 있으므로 경우에 따라 상태를 보거나 인증서를 업데이트해야 할 수 있습니다.</block>
-  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">관리 하방 인증서 상태를 봅니다</block>
   <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">표준 보기에서 페이지 오른쪽의 _Information_창 하단에 있는 사용자 승인 인증서의 상태를 확인합니다.</block>
   <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">인증서 상태는 24시간마다 한 번씩 새로 고쳐집니다.</block>
   <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">작업 환경에 있는 정보 창의 스크린샷</block>
@@ -344,12 +339,10 @@
   <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">관리 인터페이스 인증서를 업데이트합니다</block>
   <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">관리 인터페이스 인증서의 상태가 유효하지 않거나 인증서가 만료되었다는 알림을 받은 경우 BlueXP 에서 StorageGRID에 연결할 수 있도록 인증서를 업데이트해야 합니다.</block>
   <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">StorageGRID에서 온-프레미스 Grid Manager로 이동하여 의 지침을<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>따릅니다.</block>
-  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">Blue XP 탐색 메뉴에서 * Storage &gt; Canvas * 를 선택합니다.</block>
   <block id="40540158a277d365081d54ce377ee023" category="list-text">기타 옵션 아이콘(세 개의 세로 점이 있는 원)을 선택합니다.</block>
   <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">업데이트 메뉴의 스크린샷</block>
   <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">인증서 업데이트 * 를 선택합니다.</block>
-  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">표준 보기에서 기타 옵션 아이콘(세로 점이 세 개인 아이콘)을 사용하여 인증서를 업데이트할 수도 있습니다.</block>
   <block id="434da4cffed06e08c23765d021db1afc" category="list-text">Approve certificate_페이지에서 * Approve certificate * 를 선택하여 업데이트된 인증서를 사용합니다.</block>
   <block id="101a4dba130db08f412262b11097db65" category="list-text">표준 보기에서 메뉴 아이콘을 선택하고 * 작업 공간에서 제거 * 를 선택합니다.</block>
   <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024년 8월 7일</block>
@@ -362,5 +355,12 @@
   <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">시스템 검색 중에 서버 인증서를 검토하고 승인하는 방법에 대해 알아봅니다.</block>
   <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
   <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">그리드 관리자를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리하고 백업, 데이터 계층화 등에 BlueXP의 데이터 서비스를 사용합니다.</block>
-  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">인증서를 관리합니다</block>
+  <block id="57451516de60f65a613633c72a543441" category="list-text">인증서를 확인하지 않고 검색 프로세스를 종료하려면 * 취소 * 를 선택하십시오.</block>
+  <block id="8573a317227bda2e8dcf6245b9035011" category="paragraph">예를 들어, StorageGRID 관리 인증서를 업데이트해야 한다는 오류 메시지가 표시되면 * 취소 * 를 선택할 수 있습니다.</block>
+  <block id="e9b0047ba9b98249dc4a3e9bc46a658e" category="paragraph">인증서를 업데이트하려면 StorageGRID 시스템으로 이동하여 인증서를 업데이트한 다음 BlueXP 에서 검색 프로세스를 다시 시작하십시오.</block>
+  <block id="a604d96f80b6dcdc7ff27801d921e9b3" category="doc">BlueXP 에서 StorageGRID 인증서를 보고 업데이트합니다</block>
+  <block id="cac8f8d491009407dfbdb3b442860ade" category="paragraph">BlueXP 에서 시스템을 검색하려면 StorageGRID 시스템에 관리 인터페이스 인증서가 필요합니다. 이 인증서는 BlueXP 와 StorageGRID 간에 보안 연결을 제공합니다. 인증서가 만료될 수 있으므로 경우에 따라 상태를 보거나 인증서를 업데이트해야 할 수 있습니다.</block>
+  <block id="fbd54ca9d42fc0afdb26c5c699c8e55e" category="section-title">관리 인터페이스 인증서의 상태를 봅니다</block>
+  <block id="ac2871047714af92edb3022cb27acb51" category="paragraph">StorageGRID 시스템에 대한 관리 인터페이스 인증서의 상태를 확인하여 인증서가 여전히 유효한지 확인합니다.</block>
+  <block id="fb6e1263028aaf83a98c38f91ee467e9" category="sidebar">StorageGRID 인증서를 보고 업데이트합니다</block>
 </blocks>

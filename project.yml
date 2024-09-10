@@ -26,7 +26,7 @@ sidebar:
     entries:
     - title: StorageGRID 시스템을 봅니다
       url: "/task-view-storagegrid.html"
-    - title: 인증서를 관리합니다
+    - title: StorageGRID 인증서를 보고 업데이트합니다
       url: "/task-manage-certificates.html"
     - title: 고급 보기를 사용하여 StorageGRID를 관리합니다
       url: task-administer-storagegrid.html
