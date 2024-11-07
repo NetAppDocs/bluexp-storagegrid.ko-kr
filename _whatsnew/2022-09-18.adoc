@@ -1,0 +1,9 @@
+= StorageGRID 지원
+:allow-uri-read: 
+
+
+
+
+=== StorageGRID 지원
+
+이제 BlueXP에서 직접 StorageGRID 시스템을 검색할 수 있습니다. StorageGRID을 발견하여 하이브리드 멀티 클라우드 전체의 데이터를 완벽하게 파악할 수 있습니다.
