@@ -365,4 +365,6 @@
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">Connector는 클라우드 또는 온-프레미스에 상주할 수 있습니다. StorageGRID 시스템에 대한 네트워크 연결만 있으면 됩니다.</block>
   <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">버전 3.9.43 이상을 사용하여 커넥터를 새로 설치합니다.</block>
   <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">커넥터에서 StorageGRID 시스템으로의 네트워크 연결</block>
+  <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">StorageGRID 시스템의 BlueXP  관리를 위한 고지 사항</block>
+  <block id="6da0afd2bb3a5e61128a9818c9a173e9" category="list-text"><block ref="6da0afd2bb3a5e61128a9818c9a173e9" category="inline-link-macro-rx"></block></block>
 </blocks>
