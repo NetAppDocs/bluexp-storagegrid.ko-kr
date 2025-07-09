@@ -16,6 +16,9 @@ summary: StorageGRID 시스템을 발견한 후 용량 분포 및 관련 알림,
 [role="lead"]
 StorageGRID 시스템을 발견한 후 용량 분포 및 관련 알림, 노드 및 테넌트에 대한 세부 정보를 볼 수 있습니다.
 
+.필요한 BlueXP 역할:
+조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
+
 .단계
 . 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 . Canvas 페이지에서 보려는 StorageGRID 작업 환경을 선택합니다.

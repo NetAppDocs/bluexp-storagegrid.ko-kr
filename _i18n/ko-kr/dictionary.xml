@@ -6,12 +6,9 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID 지원</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">StorageGRID 시스템에 대해 알아보십시오</block>
-  <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">커넥터 및 커넥터 작성 방법에 대해 자세히 알아보십시오</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">관리 노드의 도메인 이름 또는 IP 주소입니다.</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">관리 노드에 대한 관리자 자격 증명입니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">메시지가 표시되면 연결선을 만듭니다.</block>
-  <block id="b5047ecbe29388d4251d2e7ffe1d3437" category="paragraph">자세한 내용은 위의 링크를 참조하십시오.</block>
   <block id="b692c7e41f214f1934d82e1fb8c34551" category="inline-image-macro">관리자 노드의 도메인 이름 또는 IP 주소와 자격 증명을 입력하는 StorageGRID 클러스터 세부 정보 페이지를 보여 주는 스크린샷</block>
   <block id="6f4e41dd41fcea233053f2ba61b3e93c" category="paragraph"><block ref="6f4e41dd41fcea233053f2ba61b3e93c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0bf8a233feaff9e97e741d5e88905db3" category="summary">StorageGRID 시스템을 발견한 후 용량 분포 및 관련 알림, 노드 및 테넌트에 대한 세부 정보를 볼 수 있습니다.</block>
@@ -167,7 +164,6 @@
   <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">BlueXP 복사 및 동기화에 대해 자세히 알아보십시오</block>
   <block id="9e5b68fb5027979545709db9c86c496d" category="paragraph"><block ref="9e5b68fb5027979545709db9c86c496d" category="inline-link-rx"></block></block>
   <block id="5693110829c37bf470028ed210aaa3a9" category="paragraph"><block ref="5693110829c37bf470028ed210aaa3a9" category="inline-link-rx"></block></block>
-  <block id="30e1f00c72b63f8042f24c3558ddb8e3" category="paragraph"><block ref="30e1f00c72b63f8042f24c3558ddb8e3" category="inline-link-rx"></block></block>
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
@@ -307,7 +303,6 @@
   <block id="883de86cf908ad706df604bca20d6e9d" category="list-text">BlueXP 는 StorageGRID 관리 인터페이스 인증서를 자동으로 검색합니다. Approve certificate_페이지에서 인증서 세부 정보를 검토합니다.</block>
   <block id="bd9fb575ba237f8ebfeb0706ecdcbb14" category="inline-image-macro">StorageGRID 시스템을 검색하는 동안 나타나는 인증서 승인 화면을 보여 주는 스크린샷</block>
   <block id="5d2ec429ab6adc62b7ef0809eb5d31b6" category="paragraph"><block ref="5d2ec429ab6adc62b7ef0809eb5d31b6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="99ffc4996ddbc66ec3d88c9143de92ee" category="list-text">표시된 인증서가 아닌 다른 인증서를 사용하려면 먼저 StorageGRID 시스템에서 구성해야 합니다.</block>
   <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">StorageGRID에 관리 인터페이스 인증서 설치</block>
   <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">온프레미스 StorageGRID 시스템에서 지침을<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block>따릅니다.</block>
   <block id="db712f470bd74a71528f96d96eeba458" category="list-text">StorageGRID 시스템에서 인증서를 구성한 후 BlueXP 의 _Approve certificate_페이지에서 * 취소 * 를 선택합니다.</block>
@@ -315,7 +310,6 @@
   <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">필요에 따라 * 인증서 복사 * 를 선택하여 인증서의 세부 정보를 복사합니다. 필요한 경우 인증서 세부 정보를 사용하여 추가 검증을 수행할 수 있습니다.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">다음 중 하나를 수행합니다.</block>
   <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">인증서 승인 * 을 선택하여 인증서를 사용합니다.</block>
-  <block id="deac8378c59fe3d88512463d35486723" category="paragraph">성공 메시지가 나타납니다. StorageGRID 서버와 BlueXP  커넥터 간의 모든 통신은 승인된 인증서를 확인하여 보호됩니다.</block>
   <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">BlueXP 에서 StorageGRID 시스템을 검색한 후 NetApp의 데이터 서비스를 사용하여 백업, 데이터 계층화 및 데이터 동기화를 수행할 수 있습니다.</block>
   <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">BlueXP  계층화를 사용하여 온프레미스 ONTAP 클러스터의 비활성 데이터를 StorageGRID로 자동 계층화합니다.</block>
   <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">온프레미스 ONTAP 클러스터에서 StorageGRID로 데이터를 계층화하는 방법에 대해 자세히 알아보십시오</block>
@@ -362,9 +356,18 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAP에서 다음과 같은 주요 워크플로우를 사용하려면 NetApp 지원 사이트 자격 증명을 BlueXP  조직과 연결해야 합니다.</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSS 자격 증명을 BlueXP  조직과 연결하는 것은 BlueXP  사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">이러한 NSS 자격 증명은 특정 BlueXP  조직 ID와 연결됩니다. BlueXP  조직에 속한 사용자는 * 지원 &gt; NSS 관리 * 에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
-  <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">Connector는 클라우드 또는 온-프레미스에 상주할 수 있습니다. StorageGRID 시스템에 대한 네트워크 연결만 있으면 됩니다.</block>
-  <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">버전 3.9.43 이상을 사용하여 커넥터를 새로 설치합니다.</block>
-  <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">커넥터에서 StorageGRID 시스템으로의 네트워크 연결</block>
   <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">StorageGRID 시스템의 BlueXP  관리를 위한 고지 사항</block>
   <block id="99395adb6824d0f0da9a0ed98f9378f9" category="list-text"><block ref="99395adb6824d0f0da9a0ed98f9378f9" category="inline-link-macro-rx"></block></block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="doc">BlueXP 액세스 역할이 필요합니다</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">BlueXP 액세스 역할에 대해 알아보세요.</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">이제 BlueXP 에서 StorageGRID 보거나 검색하거나 관리하려면 다음 액세스 역할 중 하나가 필요합니다. *조직 관리자*, *폴더 또는 프로젝트 관리자*, *스토리지 관리자* 또는 *스토리지 상태 전문가*. <block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="2c90d6804b5a2b571ff0d84400597f77" category="doc">BlueXP 의 Grid Manager를 사용하여 StorageGRID 관리</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">필요한 BlueXP 역할:</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가. <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">귀하의 조직 관리자에게 문의하세요.</block>
+  <block id="75fe746a91853f8805bc964f8f8f47bb" category="list-text">3.9.43 이상 버전을 사용하는 Connector. Connector를 설치하려면 조직 관리자 권한이 있어야 합니다. 조직에 Connector가 있는지 확실하지 않거나 새로 만들어야 하는 경우 BlueXP 관리자에게 문의하세요. <block ref="765570b937b73d16d7ea0af9aecd0128" category="inline-link-rx"></block></block>
+  <block id="b7b06656b02cb84d84e7f79e844f69e6" category="list-text">다른 인증서를 사용하려면 먼저 StorageGRID 시스템에 인증서를 설정하세요.</block>
+  <block id="6ffd37b9a5dfcec944420f7e8015504a" category="paragraph">BlueXP 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 BlueXP 커넥터 간의 모든 통신을 보호합니다.</block>
+  <block id="5bc6f7894821932fa85d795cfc188701" category="paragraph">조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자. <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
 </blocks>

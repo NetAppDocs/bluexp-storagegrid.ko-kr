@@ -16,17 +16,13 @@ summary: 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 
 [role="lead"]
 온프레미스 환경에서 StorageGRID 시스템을 검색한 다음 그리드 관리자를 사용하여 BlueXP 에서 직접 관리합니다.
 
+.필요한 BlueXP 역할:
+조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
+
 .시작하기 전에
 다음이 필요합니다.
 
-* 버전 3.9.43 이상을 사용하여 커넥터를 새로 설치합니다.
-* 커넥터에서 StorageGRID 시스템으로의 네트워크 연결
-+
-Connector는 클라우드 또는 온-프레미스에 상주할 수 있습니다. StorageGRID 시스템에 대한 네트워크 연결만 있으면 됩니다.
-
-+
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["커넥터 및 커넥터 작성 방법에 대해 자세히 알아보십시오"^]
-
+* 3.9.43 이상 버전을 사용하는 Connector. Connector를 설치하려면 조직 관리자 권한이 있어야 합니다. 조직에 Connector가 있는지 확실하지 않거나 새로 만들어야 하는 경우 BlueXP 관리자에게 문의하세요.  https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["귀하의 조직 관리자에게 문의하세요."^]
 * 관리 노드의 도메인 이름 또는 IP 주소입니다.
 * 관리 노드에 대한 관리자 자격 증명입니다.
 * StorageGRID 시스템에 설치된 관리 인터페이스 인증서
@@ -36,13 +32,9 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 
 
 .단계
-. BlueXP 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
+. 탐색 메뉴에서 * Storage > Canvas * 를 선택합니다.
 . 작업 환경 추가 * 를 선택하고 * 온-프레미스 * 를 선택합니다.
 . StorageGRID * 옆에 있는 * Discover * 를 선택합니다.
-. 메시지가 표시되면 연결선을 만듭니다.
-+
-자세한 내용은 위의 링크를 참조하십시오.
-
 . BlueXP 의 _StorageGRID 클러스터 세부 정보_ 페이지에서 관리 노드의 도메인 이름 또는 IP 주소, 노드의 자격 증명을 입력한 다음 * 추가 * 를 선택합니다.
 +
 image:screenshot-cluster-details.png["관리자 노드의 도메인 이름 또는 IP 주소와 자격 증명을 입력하는 StorageGRID 클러스터 세부 정보 페이지를 보여 주는 스크린샷"]
@@ -51,7 +43,7 @@ image:screenshot-cluster-details.png["관리자 노드의 도메인 이름 또�
 +
 image:screenshot-bluexp-approve-certificate.png["StorageGRID 시스템을 검색하는 동안 나타나는 인증서 승인 화면을 보여 주는 스크린샷"]
 
-. 표시된 인증서가 아닌 다른 인증서를 사용하려면 먼저 StorageGRID 시스템에서 구성해야 합니다.
+. 다른 인증서를 사용하려면 먼저 StorageGRID 시스템에 인증서를 설정하세요.
 +
 .. 온프레미스 StorageGRID 시스템에서 지침을 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRID에 관리 인터페이스 인증서 설치"^]따릅니다.
 .. StorageGRID 시스템에서 인증서를 구성한 후 BlueXP 의 _Approve certificate_페이지에서 * 취소 * 를 선택합니다.
@@ -63,7 +55,7 @@ image:screenshot-bluexp-approve-certificate.png["StorageGRID 시스템을 검색
 +
 .. 인증서 승인 * 을 선택하여 인증서를 사용합니다.
 +
-성공 메시지가 나타납니다. StorageGRID 서버와 BlueXP  커넥터 간의 모든 통신은 승인된 인증서를 확인하여 보호됩니다.
+BlueXP 성공 메시지를 표시하고 승인된 인증서를 검증하여 StorageGRID 서버와 BlueXP 커넥터 간의 모든 통신을 보호합니다.
 
 .. 인증서를 확인하지 않고 검색 프로세스를 종료하려면 * 취소 * 를 선택하십시오.
 +

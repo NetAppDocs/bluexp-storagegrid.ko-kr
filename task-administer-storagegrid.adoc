@@ -4,7 +4,7 @@ permalink: task-administer-storagegrid.html
 keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
 summary: 고급 보기를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리합니다. 이 보기를 사용하면 StorageGRID 작업 환경 내에서 그리드 관리자를 사용할 수 있습니다. 
 ---
-= 고급 보기를 사용하여 StorageGRID를 관리합니다
+= BlueXP 의 Grid Manager를 사용하여 StorageGRID 관리
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -15,6 +15,9 @@ summary: 고급 보기를 사용하여 BlueXP 에서 StorageGRID 시스템을 �
 
 [role="lead"]
 고급 보기를 사용하여 BlueXP 에서 StorageGRID 시스템을 관리합니다. 이 보기를 사용하면 StorageGRID 작업 환경 내에서 그리드 관리자를 사용할 수 있습니다.
+
+.필요한 BlueXP 역할:
+조직 관리자, 폴더 또는 프로젝트 관리자, 저장소 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["BlueXP 액세스 역할에 대해 알아보세요."^]
 
 
 
